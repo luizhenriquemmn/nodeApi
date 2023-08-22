@@ -1,5 +1,4 @@
-import App from "./app";
+import app from "./app";
 
-const server = App;
-server.listen(2000);
-console.log("aguardando na porta 2000");
+app.listen(3000);
+console.log("aguardando na porta 3000");
